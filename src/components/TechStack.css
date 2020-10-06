@@ -1,0 +1,16 @@
+.tech-stack-container {
+  width: 100%;
+  border-bottom: 5px solid black;
+}
+
+.icon-row-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tech-stack-heading {
+  font-size: 1.5em;
+  text-align: center;
+}
+

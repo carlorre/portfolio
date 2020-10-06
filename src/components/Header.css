@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+  box-shadow: 2px 2px 8px rgb(40, 37, 37);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  height: 50px;
+  width: 100px;
+}
+
+.nav-link:hover {
+  background-color: rgb(244, 244, 244);
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.link-icon {
+  font-size: 25px;
+  color: black;
+  margin-bottom: 0;
+}
+
+.name {
+  font-size: 1.5em;
+  padding-left: 20px;
+}
