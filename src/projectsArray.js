@@ -10,7 +10,7 @@ export const projects = [
   {
     name: 'Todo list',
     description: 'Simple todo list created with React. This project demonstrates the ability to use React classes aswell as local storage. Although the project is relatively simple, special attention was given to the structure of the project as well as accessibility. The app can easily be operated using only the keyboard. ',
-    technologyUsed: 'Tools used: React(classes), Local Storage, HTML, CSS, JavaScript',
+    technologyUsed: 'React(classes), Local Storage, HTML, CSS, JavaScript',
     gitHubLink: 'https://github.com/carlorre/react-todo',
     liveDemo: 'http://localhost:3002',
     media: './media/todo_gif.gif',
@@ -18,10 +18,18 @@ export const projects = [
   {
     name: 'Trash Tagger',
     description: 'Mobile application made with React Native and Firebase. The concept of the app is to allow users to geo-tag areas in need of clean up and share photos of successful clean ups. The app uses Google Maps API for geo-tagging and Google Vision for image moderation.',
-    technologyUsed: 'Tools used: React Native, Expo, Firebase, Google Cloud Platform, HTML, CSS, JavaScript',
+    technologyUsed: 'React Native, Expo, Firebase, Google Cloud Platform, HTML, CSS, JavaScript',
     gitHubLink: 'https://github.com/Mobbishly/TrashTagger',
     liveDemo: 'http://localhost:3002',
     media: './media/trashtagger_logo.png',
+  },
+  {
+    name: 'Tappy',
+    description: 'Worked on a 5 person team to create a MVP for a startup in two weeks. The app uses Firebase for live database updates, user authentication and storage. The app uses Stripe to handle payments.',
+    technologyUsed: 'React Native, Expo, Firebase, Stripe, HTML, CSS, JavaScript',
+    gitHubLink: '',
+    liveDemo: 'https://www.tappy.co/',
+    media: './media/tappy_gif.gif',
   }
 
 

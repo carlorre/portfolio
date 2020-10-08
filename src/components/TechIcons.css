@@ -1,18 +1,11 @@
 .tech-logo-container {
-  background-color: white;
-  height: 95px;
-  width: 95px;
-  margin: 10px;
-  padding: 10px;
+  height: 70px;
+  width: 70px;
   display: flex;
-  justify-content: center;
-  border-radius: 10px;
-  box-shadow: 2px 2px 8px rgb(40, 37, 37);
   justify-content: center;
   align-items: center;
 }
 
 .tech-logo {
   max-height:90%; max-width:90%;
-
 }
