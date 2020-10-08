@@ -4,8 +4,10 @@ import { projects } from '../projectsArray'
 import './Projects.css'
 
 const Projects = () => (
+  
   <div className="project-section">
-    <h1>Projects</h1>
+    <div><h1 className="project-heading">My projects</h1></div>
+    
     {projects.map((project, i)=> (
       <ProjectCard 
         key= {i}

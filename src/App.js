@@ -6,17 +6,18 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import TechStack from './components/TechStack';
 
+
+
 const App = () => (
   <div className="main-container">
     <Header/> 
     <main>
       <Hero/>
-      <TechStack/>
       <Projects/>
+      <TechStack/>
       <Footer/>
     </main>
   </div>
 )
-
 
 export default App

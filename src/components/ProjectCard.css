@@ -2,9 +2,9 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  margin: 10px;
+  margin-bottom: 60px;
   border-radius: 10px;
-  box-shadow: 2px 2px 8px rgb(40, 37, 37);
+  box-shadow: 2px 2px 8px rgb(111, 111, 111);
 }
 
 .project-card-text {
@@ -20,15 +20,16 @@
 
 .project-card p {
   margin-top: 20px;
-  font-size: 1.5em;
+  font-size: 1em;
   flex-grow: 1;
+  line-height: 1.2;
 }
 
 .media-container {
   flex: 1;
   display: flex;
   height: 300px;
-  width: 300px;
+  min-width: 300px;
   justify-content: center;
   align-items: center;
 }
@@ -37,4 +38,39 @@
   border-radius: 10px;
   max-height: 90%;
   max-width: 90%;
+}
+
+.project-media:hover {
+  opacity: 0.8;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-button {
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgb(40, 37, 37);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-button:hover {
+  background-color: rgb(244, 244, 244);
+}
+
+.card-link-icon {
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .project-card {
+    flex-direction: column;
+  }
 }

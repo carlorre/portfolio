@@ -4,10 +4,10 @@ import './Hero.css'
 const Hero = () => (
   <div className="hero-container">
     <div className="hero-text-container">
-      <h1 className="hero-heading">Hi, I'm Carl </h1>
+      <h1 className="hero-heading">Hi, I'm Carl</h1>
       <h2 className="hero-text">
-        I'm a Full-Stack JavaScript developer.
-        I enjoy creative problem solving, building wbesites and apps.
+        I'm a Full-Stack JavaScript Developer from Stockholm.
+        I enjoy creative problem solving, building websites and mobile applications.
         I am always looking to learn and develop my abilities.
         Have a look at some of my projects.
         </h2>

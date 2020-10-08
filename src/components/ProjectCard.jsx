@@ -8,12 +8,13 @@ const ProjectCard = (project) => (
       <p>{project.description}</p>
       <p>{project.technologyUsed}</p>
       <div className="buttons-container">
-        <a href={project.liveDemo}>hi</a>
-        <a href={project.gitHubLink}>poo</a>
+        <a className="card-button" href={project.liveDemo}><i class="card-link-icon fas fa-play-circle"></i>View Live Demo</a>
+        <a className="card-button" href={project.gitHubLink}><i class="card-link-icon fab fa-github"></i>Github Link</a>
       </div>
     </div>
     <div className="media-container">
-      <img className="project-media" src={project.media} alt=""/>
+      <a href={project.liveDemo}><img className="project-media" src={project.media} alt=""/></a>
+      
     </div>
 
   </div>
