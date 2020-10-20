@@ -1,78 +1,108 @@
 .project-card {
-  background-color: white;
   display: flex;
   justify-content: space-between;
+  background-color:var(--secondary-color);
   margin-bottom: 60px;
+  box-shadow: 0 0 20px rgb(120, 120, 120);
   border-radius: 10px;
-  box-shadow: 2px 2px 8px rgb(111, 111, 111);
+  color: var(--font-color);
 }
 
 .project-card-text {
   display: flex;
   flex-direction: column;
-  flex: 2;
   padding: 20px
 }
 
 .project-card h1 {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .project-card p {
   margin-top: 20px;
   font-size: 1em;
-  flex-grow: 1;
   line-height: 1.2;
 }
 
 .media-container {
-  flex: 1;
   display: flex;
-  height: 300px;
   min-width: 300px;
   justify-content: center;
   align-items: center;
+  padding: 40px;
 }
 
 .project-media {
+  max-height: 230px;
+  max-width: 230px;
   border-radius: 10px;
-  max-height: 290px;
-  max-width: 290px;
+  box-shadow: 0 0 8px rgb(120, 120, 120);
+
+  z-index:-1;
 }
 
 .project-media:hover {
-  opacity: 0.8;
 }
 
 .buttons-container {
   display: flex;
-  margin-top: 15px;
+  padding-top: 20px;
+  flex-grow: 1;
+  align-items: center;
 }
 
 .card-button {
   font-size: 1em;
-  color: black;
+  color: var(--font-color);
   text-decoration: none;
   border-radius: 10px;
-  box-shadow: 1px 1px 3px rgb(111, 111, 111);
+  box-shadow: 0 0 8px rgb(120, 120, 120);
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 20px;
+  height: 30px;
+  width: 150px;
 }
 
 .card-button:hover {
-  background-color: rgb(244, 244, 244);
+  background-color: var(--primary-color);
+  
+}
+
+.card-button:active {
+  transform: translate(0, 1px);
 }
 
 .card-link-icon {
   padding-right: 10px;
+  font-size: 1.5em;
+  color: var(--font-color);
 }
 
-@media only screen and (max-width: 750px) {
-  .project-card {
+.project-link-text {
+  color: var(--font-color);
+}
+
+@media only screen and (max-width: 860px) {
+  .buttons-container {
+    justify-content: center;
+  }
+  .media-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .buttons-container {
     flex-direction: column;
   }
-
+  .card-button {
+    margin-top: 10px;
+    margin-right: 0;
+  }
+  .project-card h1 {
+    text-align: center;
+  }
 }

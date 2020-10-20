@@ -5,9 +5,15 @@
 }
 
 .project-heading {
+  color: var(--font-color);
   margin-bottom: 30px;
   font-size: 2em;
   font-weight: bold;
   text-align: left;
+}
 
+@media only screen and (max-width: 500px) {
+  .project-heading {
+    text-align: center;
+  }
 }

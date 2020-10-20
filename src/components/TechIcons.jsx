@@ -3,7 +3,8 @@ import './TechIcons.css'
 
 const TechIcons = (stack) => (
   <div className="tech-logo-container">
-    <img className="tech-logo" src={stack.url} alt={stack.name}/>
+    <i style={{color: stack.color}} className={stack.icon}></i>
+    <p className="tech-logo-text">{stack.name}</p>
   </div>
 )
 

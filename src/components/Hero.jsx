@@ -3,13 +3,12 @@ import './Hero.css'
 import TechIcons from './TechIcons'
 
 const stack = [
-  {name: 'HTML', url:'/images/html_logo.png'},
-  {name: 'CSS', url: '/images/css_logo.png'},
-  {name: 'JavaScript', url: '/images/javascript_logo.png'},
-  {name: 'Node', url: '/images/node_logo.png'},
-  {name: 'React', url: '/images/react_logo.png'},
-  {name: 'Firebase', url: '/images/firebase_logo.png'},
-  {name: 'GitHub', url: '/images/github_logo.png'},
+  {name: 'HTML', icon:'fab fa-html5', color: '#cd5434'},
+  {name: 'CSS', icon: 'fab fa-css3-alt', color: '#369ad6'},
+  {name: 'JavaScript', icon: 'fab fa-js', color: '#e9d44d'},
+  {name: 'Node', icon: 'fab fa-node-js', color: '	#90c53f'},
+  {name: 'React', icon: 'fab fa-react', color: '#6fbfdb'},
+  {name: 'GitHub', icon: 'fab fa-github'},
 ]
 
 const Hero = () => (
@@ -20,14 +19,19 @@ const Hero = () => (
         I'm a Full-Stack JavaScript Developer from Stockholm.
         I enjoy creative problem solving, building websites and mobile applications.
         I am always looking to learn and develop my abilities.
-        These are the tools i am most familiar with:
-        </h2>
+
+      </h2>
+      <br/>
+      <br/>
+      <h2 className="hero-text">These are the tools i am most familiar with:</h2>
+
         <div className="icon-row-container">
           {stack.map((item, i) => (
             <TechIcons
               key={i}
               name={item.name}
-              url={item.url}
+              icon={item.icon}
+              color={item.color}
             />
       
     ))}
