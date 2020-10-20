@@ -17,7 +17,7 @@ const Hero = () => (
       <h1 className="hero-heading">Hi, I'm Carl</h1>
       <h2 className="hero-text">
         I'm a Full-Stack JavaScript Developer from Stockholm.
-        I enjoy creative problem solving, building websites and mobile applications.
+        I love creative problem solving, building websites and mobile applications.
         I am always looking to learn and develop my abilities.
 
       </h2>
