@@ -8,20 +8,20 @@ export const projects = [
     media: './media/todo_gif.gif',
   },
   {
-    name: 'Come Chat Me',
-    description: 'Chat application built using React, Redux for state management and socket.io. The application was built using a mobile first approach and is responsive.',
-    technologyUsed: 'Tools used: React, Redux, Socket.io, HTML, CSS, JavaScript',
-    gitHubLink: 'https://github.com/carlorre/comechatme-client',
-    liveDemo: 'https://elegant-agnesi-1cbf83.netlify.app/',
-    media: './media/chat_gif.gif',
-  },
-  {
     name: 'Custom Memory Game',
     description: 'Fun little memory game created in React which allows users to chose the theme of the game. This project demonstrates the ability to use an external API to modify content dynamically. The game fetches images from the Unsplash API based on user input.',
     technologyUsed: 'Tools used: React(hooks), Express, Node-Fetch, HTML, CSS, JavaScript',
     gitHubLink: 'https://github.com/carlorre/react-memory-game',
     liveDemo: 'https://elastic-northcutt-7bf533.netlify.app',
     media: './media/memory_gif.gif',
+  },
+  {
+    name: 'Come Chat Me',
+    description: 'Chat application built using React, Redux for state management and socket.io. The application was built using a mobile first approach and is fully responsive. Sign in on two different browsers to test the functionality',
+    technologyUsed: 'Tools used: React, Redux, Socket.io, HTML, CSS, JavaScript',
+    gitHubLink: 'https://github.com/carlorre/comechatme-client',
+    liveDemo: 'https://elegant-agnesi-1cbf83.netlify.app/',
+    media: './media/chat_gif.gif',
   },
   {
     name: 'Trash Tagger',
@@ -35,7 +35,7 @@ export const projects = [
     name: 'Tappy',
     description: 'Worked on a 5 person team to create a MVP for a startup in two weeks. The app uses Firebase for live database updates, user authentication and storage. The app uses Stripe to handle payments.',
     technologyUsed: 'React Native, Expo, Firebase, Stripe, HTML, CSS, JavaScript',
-    gitHubLink: '',
+    gitHubLink: 'https://github.com/Mobbishly/Tappy',
     liveDemo: 'https://www.tappy.co/',
     media: './media/tappy_gif.gif',
   }
