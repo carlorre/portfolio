@@ -29,14 +29,13 @@
   min-width: 300px;
   justify-content: center;
   align-items: center;
-  padding: 40px;
 }
 
 .project-media {
   max-height: 230px;
   max-width: 230px;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgb(120, 120, 120);
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgb(120, 120, 120);
   z-index:-1;
 }
 

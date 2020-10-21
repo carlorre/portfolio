@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 const lightTheme = {
   "--primary-color": "#f0f2f5",
   "--secondary-color": "white",
-  "--font-color": "black"
+  "--font-color": "#2e2e2e"
 }
 
 const darkTheme = {
@@ -18,22 +18,34 @@ const darkTheme = {
 };
 
 const App = () => {
+  const [currentTheme, setTheme] = useState('light')
 
-  const [currentTheme, setTheme] = useState("light");
+  useEffect(() => {
+    if (localStorage) {
+      if (localStorage.getItem('theme') === 'dark') {
+        applyTheme(darkTheme)
+        setTheme('dark')
+      }
+    }
+  }, [currentTheme])
 
   const onClick = () => {
-    const nextTheme = currentTheme === "light" ? "dark" : "light";
-    setTheme(nextTheme);
-    applyTheme(nextTheme, () => setTheme(nextTheme));
+    if (currentTheme === 'light') {
+      applyTheme(darkTheme)
+      setTheme('dark')
+      localStorage.setItem('theme', 'dark')
+    } else {
+      applyTheme(lightTheme)
+      setTheme('light')
+      localStorage.setItem('theme', 'light')
+    }
   };
 
-  const applyTheme = (nextTheme, cb) => {
-    const theme = nextTheme === "light" ? lightTheme : darkTheme;
+  const applyTheme = (theme) => {
     Object.keys(theme).forEach(key => {
       const value = theme[key];
       document.documentElement.style.setProperty(key, value);
     });
-    cb();
   };
 
   return (
