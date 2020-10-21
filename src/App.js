@@ -17,13 +17,10 @@ const darkTheme = {
   "--font-color": "#e4e4e4"
 };
 
-
-
 const App = () => {
 
   const [currentTheme, setTheme] = useState("light");
 
-  
   const onClick = () => {
     const nextTheme = currentTheme === "light" ? "dark" : "light";
     setTheme(nextTheme);
@@ -41,7 +38,7 @@ const App = () => {
 
   return (
     <div className="main-container">
-      <Header onClick={onClick}/> 
+      <Header currentTheme={currentTheme} onClick={onClick}/> 
       <main>
         <Hero/>
         <Projects/>

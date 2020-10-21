@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 
-const Header = ({ onClick }) => {
+const Header = ({ currentTheme, onClick }) => {
 
   return (
   <div className="header">
@@ -24,13 +24,19 @@ const Header = ({ onClick }) => {
           </a>
         </li>
 
+      {currentTheme === 'light' ? 
         <li>
           <div onClick={onClick} class="nav-link">
             <i class="fas fa-moon"></i>
           </div>
         </li>
-
-      
+        :
+        <li>
+        <div onClick={onClick} class="nav-link">
+          <i class="fas fa-sun"></i>
+        </div>
+        </li>
+        }
       </ul>
     </div>
   </div>
