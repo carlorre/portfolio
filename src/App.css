@@ -51,8 +51,9 @@ table {
 /* --------------------------- */
 
 :root {
-	--primary-color: #2e2e2e;
-	--secondary-color: white
+	--primary-color: #f0f2f5;
+	--secondary-color: white;
+	--font-color: #2e2e2e;
 }
 
 html {
