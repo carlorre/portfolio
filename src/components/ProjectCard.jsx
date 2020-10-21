@@ -8,7 +8,7 @@ const ProjectCard = (project) => (
       <p>{project.description}</p>
       <p>{project.technologyUsed}</p>
       <div className="buttons-container">
-        <a className="card-button" href={project.liveDemo}><i class="card-link-icon fas fa-play-circle"></i><span className="project-link-text">Live Demo</span></a>
+        {project.liveDemo ? <a className="card-button" href={project.liveDemo}><i class="card-link-icon fas fa-play-circle"></i><span className="project-link-text">Live Demo</span></a> : null }
         <a className="card-button" href={project.gitHubLink}><i class="card-link-icon fab fa-github"></i><span className="project-link-text">Github Link</span></a>
       </div>
     </div>

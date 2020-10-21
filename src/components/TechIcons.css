@@ -5,13 +5,11 @@
   justify-content: center;
   align-items: center;
   padding: 8px;
-  margin: 2px;
+  margin: 1px;
   border-radius: 10px;
-  font-size: 4em;
+  font-size: 3.4em;
 }
 
-
-
 .tech-logo-text {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
