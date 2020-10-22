@@ -11,7 +11,7 @@ export const projects = [
     name: 'Custom Memory Game',
     description: 'Fun little memory game created in React which allows users to chose the theme of the game. This project demonstrates the ability to use an external API to modify content dynamically. The game fetches images from the Unsplash API based on user input.',
     technologyUsed: 'Tools used: React(hooks), Unsplash API, HTML, CSS, JavaScript',
-    gitHubLink: 'https://github.com/carlorre/react-memory-game',
+    gitHubLink: 'https://github.com/carlorre/react_memory',
     liveDemo: 'https://elastic-northcutt-7bf533.netlify.app',
     media: './media/memory_gif.gif',
   },
