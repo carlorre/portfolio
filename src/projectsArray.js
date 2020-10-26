@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: 'Todo List',
-    description: 'My first React App! Although the project is relatively simple it demonstrates the ability to use React classes aswell as local storage. Special attention was given to accessibility and app can be operated using only the keyboard. It is fully responsive. ',
+    description: 'My first React App! Although the project is relatively simple it demonstrates the ability to use React classes as well as local storage. Special attention was given to accessibility and the app can be operated using only the keyboard. It is fully responsive. ',
     technologyUsed: 'React(classes), Local Storage, HTML, CSS, JavaScript',
     gitHubLink: 'https://github.com/carlorre/react-todo',
     liveDemo: 'https://trusting-shannon-fe83a8.netlify.app',
@@ -10,15 +10,15 @@ export const projects = [
   {
     name: 'Custom Memory Game',
     description: 'Fun little memory game created in React which allows users to chose the theme of the game. This project demonstrates the ability to use an external API to modify content dynamically. The game fetches images from the Unsplash API based on user input.',
-    technologyUsed: 'Tools used: React(hooks), Unsplash API, HTML, CSS, JavaScript',
+    technologyUsed: 'React(hooks), Unsplash API, HTML, CSS, JavaScript',
     gitHubLink: 'https://github.com/carlorre/react_memory',
     liveDemo: 'https://elastic-northcutt-7bf533.netlify.app',
     media: './media/memory_gif.gif',
   },
   {
     name: 'Come Chat Me',
-    description: 'Chat application built using React, Redux for state management, socket.io and an Express server. The application was built using a mobile first approach and is fully responsive. Sign in on two different browsers to test the functionality',
-    technologyUsed: 'Tools used: React, Redux, Socket.io, Express, HTML, CSS, JavaScript',
+    description: 'Chat application built using React, Redux for state management, socket.io and an Express server. The application was built using a mobile first approach and is fully responsive. Sign in on two different browsers to test the functionality.',
+    technologyUsed: 'React, Redux, Socket.io, Express, HTML, CSS, JavaScript',
     gitHubLink: 'https://github.com/carlorre/comechatme-client',
     liveDemo: 'https://elegant-agnesi-1cbf83.netlify.app/',
     media: './media/chat_gif.gif',
