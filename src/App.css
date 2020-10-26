@@ -47,6 +47,15 @@ table {
 }
 
 /* --------------------------- */
+/* -----------Fonts----------- */
+/* --------------------------- */
+
+@font-face {
+  font-family: 'CharlevoixPro';
+  src: local('CharlevoixPro'), url(./fonts/CharlevoixPro/CharlevoixPro-Regular.otf) format('opentype');
+}
+
+/* --------------------------- */
 /* ----------Layout----------- */
 /* --------------------------- */
 
@@ -62,7 +71,7 @@ html {
 }
 
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: CharlevoixPro, Georgia, 'Times New Roman', Times, serif;
 	letter-spacing: 0.1em;
 	justify-content: center;
 	background-color: var(--primary-color);
