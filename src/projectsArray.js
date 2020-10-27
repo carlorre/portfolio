@@ -28,7 +28,7 @@ export const projects = [
     description: 'Mobile application made with React Native and Firebase. The concept of the app is to allow users to geo-tag areas in need of clean up and share photos of successful clean ups. The app uses Google Maps API for geo-tagging and Google Vision for image moderation.',
     technologyUsed: 'React Native, Expo, Firebase, Google Cloud Platform, HTML, CSS, JavaScript',
     gitHubLink: 'https://github.com/Mobbishly/TrashTagger',
-    // liveDemo: '',
+    video: '472432541',
     media: './media/trashtagger_logo.png',
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     description: 'Worked on a 5 person team to create a MVP for a startup in two weeks. The app uses Firebase for live database updates, user authentication and storage. The app uses Stripe to handle payments.',
     technologyUsed: 'React Native, Expo, Firebase, Stripe, HTML, CSS, JavaScript',
     gitHubLink: 'https://github.com/Mobbishly/Tappy',
-    // liveDemo: 'https://www.tappy.co/',
+    video: '472431255',
     media: './media/tappy_gif.gif',
   },
   {
@@ -44,7 +44,6 @@ export const projects = [
     description: 'My personal portfolio page built with React and is used as a platform to display my work. The application is hosted on Netlify and is fully responsive. It has a dark mode feature that persists using local storage.',
     technologyUsed: 'React Native, Local Storage, HTML, CSS, JavaScript',
     gitHubLink: 'https://github.com/carlorre/portfolio',
-    // liveDemo: 'https://www.carlorre.com/',
     media: './media/portfolio.png',
   }
 ];

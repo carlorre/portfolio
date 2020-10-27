@@ -17,6 +17,7 @@ const Projects = () => (
         gitHubLink = {project.gitHubLink}
         liveDemo = {project.liveDemo}
         media = {project.media}
+        video = {project.video}
       />
     ))}
   </div>
