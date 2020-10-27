@@ -8,7 +8,10 @@ const stack = [
   {name: 'JavaScript', icon: 'fab fa-js', color: '#e9d44d'},
   {name: 'Node', icon: 'fab fa-node-js', color: '	#90c53f'},
   {name: 'React', icon: 'fab fa-react', color: '#6fbfdb'},
+  {name: 'Firebase', logo: '/images/firebase_logo.png', size: '0.75em'},
+  {name: 'GCS', logo: '/images/gcs_logo.png', size: '1.25em'},
   {name: 'GitHub', icon: 'fab fa-github'},
+  
 ]
 
 const Hero = () => (
@@ -29,6 +32,8 @@ const Hero = () => (
               name={item.name}
               icon={item.icon}
               color={item.color}
+              logo={item.logo}
+              size={item.size}
             />
       
     ))}

@@ -8,8 +8,10 @@
   margin: 1px;
   border-radius: 10px;
   font-size: 3.4em;
+  width: 40px;
 }
 
 .tech-logo-text {
   font-size: 0.7rem;
+  padding-top: 5px;
 }

@@ -41,7 +41,7 @@ export const projects = [
   },
   {
     name: 'Portfolio',
-    description: 'My personal portfolio page built with React and is used as a platform to display my work. The application is hosted on Netlify and is fully responsive. It has a dark mode feature that persists using local storage.',
+    description: 'My personal portfolio page built with React which is used as a platform to display my work. The application is hosted on Netlify and is fully responsive. It has a dark mode feature that persists using local storage.',
     technologyUsed: 'React Native, Local Storage, HTML, CSS, JavaScript',
     gitHubLink: 'https://github.com/carlorre/portfolio',
     media: './media/portfolio.png',
