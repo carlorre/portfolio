@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
+import TechStack from './components/TechStack';
 
 const lightTheme = {
   '--primary-color': '#f0f2f5',
@@ -53,6 +54,7 @@ const App = () => {
       <Header currentTheme={currentTheme} onClick={onClick} />
       <main>
         <Hero />
+        <TechStack />
         <Projects />
       </main>
     </div>

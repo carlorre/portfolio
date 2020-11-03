@@ -1,22 +1,41 @@
 .hero-container {
-  margin-top: 80px;
-  margin-bottom: 60px;
+  height: calc(100vh - 70px);
+  min-height: 600px;
   display: flex;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  color: var(--font-color)
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.hero-heading {
-  font-size: 2em;
-  padding-bottom: 30px;
-  font-weight: bold;
+.hero-heading-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-text-container {
-  text-align: left;
   flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-image-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.hero-heading {
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 .hero-text {
@@ -24,60 +43,54 @@
   font-size: 1em;
   font-weight: normal;
   line-height: 1.8;
-  text-align: left;
   letter-spacing: 1.8px;
-}
-
-.icon-row-container {
-  width: 100%;
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  width: 50%;
 }
 
 .hero-image-frame {
   background-color: rgb(203, 203, 203);
-  justify-content: center;
   width: 200px;
   height: 200px;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   overflow: hidden;
-  box-shadow: 0 0 10px rgb(140, 140, 140);
-}
-
-.hero-image-container {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero-image {
-  max-height:100%;
+  max-height: 100%;
   max-width: 100%;
 }
 
-@media only screen and (max-width: 860px) {
-  .hero-image-container {
-    display: none;
+@media only screen and (max-width: 700px) {
+  .hero-text {
+    width: 70%;
   }
-
 }
 
 @media only screen and (max-width: 430px) {
-  .hero-container {
-    margin-top: 30px;
+  .hero-text {
+    width: 90%;
   }
-  .icon-row-container {
-    justify-content: center;
-  }
+}
+
+@media only screen and (max-width: 350px) {
   .hero-heading {
-    text-align: center;
+    font-size: 2em;
   }
   .hero-text {
-    text-align: center;
+    font-size: 0.9em;
+  }
+  .hero-text {
+    width: 100%;
+  }
+  .hero-image-frame {
+    background-color: rgb(203, 203, 203);
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
   }
 }

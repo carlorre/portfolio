@@ -4,12 +4,15 @@
   flex-direction: column;
 }
 
+.project-heading-container {
+  text-align: center;
+}
+
 .project-heading {
-  color: var(--font-color);
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 70px;
   font-size: 1.5em;
   font-weight: bold;
-  text-align: left;
 }
 
 @media only screen and (max-width: 500px) {
