@@ -72,6 +72,12 @@
   .hero-text {
     width: 90%;
   }
+  .hero-heading-container {
+    justify-content: center;
+  }
+  .hero-text-container {
+    justify-content: flex-start;
+  }
 }
 
 @media only screen and (max-width: 350px) {
