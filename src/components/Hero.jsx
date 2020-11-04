@@ -1,8 +1,5 @@
 import React from 'react';
 import './Hero.css';
-import TechIcons from './TechIcons';
-
-
 
 const Hero = () => (
   <div className="hero-container">
@@ -15,7 +12,7 @@ const Hero = () => (
         building websites and mobile applications. I am always looking to learn new skills and
         develop my abilities.
       </h2>
-    </div> 
+    </div>
     <div className="hero-image-container">
       <div className="hero-image-frame">
         <img className="hero-image" src="/images/profile_picture.png" alt="" />
