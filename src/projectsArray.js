@@ -40,7 +40,7 @@ export const projects = [
     description:
       'Worked on a 5 person team to create a MVP for a startup in two weeks. The app uses Firebase for live database updates, user authentication and storage. The app uses Stripe to handle payments.',
     technologyUsed: 'React Native, Expo, Firebase, Stripe, HTML, CSS, JavaScript',
-    gitHubLink: 'https://github.com/Mobbishly/Tappy',
+    gitHubLink: 'https://github.com/Mobbishly/TappyPublic',
     video: '472431255',
     media: './media/tappy_gif.gif',
   },
