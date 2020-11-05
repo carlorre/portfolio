@@ -22,7 +22,7 @@ export const projects = [
     description:
       'Chat application built using React, Redux for state management, socket.io and an Express server. The application was built using a mobile first approach and is fully responsive. Sign in on two different browsers to test the functionality.',
     technologyUsed: 'React, Redux, Socket.io, Express, HTML, CSS, TypeScript',
-    gitHubLink: 'https://github.com/carlorre/comechatme-typescript',
+    gitHubLink: 'https://github.com/carlorre/comechatme-client-ts',
     liveDemo: 'https://comechatme.netlify.app',
     media: './media/chat_gif.gif',
   },
