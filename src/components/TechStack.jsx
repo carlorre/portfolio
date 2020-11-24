@@ -8,7 +8,7 @@ const stack = [
   { name: 'JavaScript', icon: 'fab fa-js', color: '#e9d44d' },
   { name: 'TypeScript', logo: '/images/typescript_logo.png', size: '1em' },
   { name: 'Node', icon: 'fab fa-node-js', color: '	#90c53f' },
-  { name: 'React', icon: 'fab fa-react', color: '#6fbfdb' },
+  { name: 'React & React Native', icon: 'fab fa-react', color: '#6fbfdb' },
   { name: 'Redux', logo: '/images/redux_logo.png', size: '1em' },
   { name: 'Firebase', logo: '/images/firebase_logo.png', size: '0.75em' },
   { name: 'GCS', logo: '/images/gcs_logo.png', size: '1.3em' },
