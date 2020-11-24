@@ -45,6 +45,15 @@ export const projects = [
     media: './media/tappy_gif.gif',
   },
   {
+    name: 'Team Tasks',
+    description:
+      'Team Tasks is a task list application created with React, TypeScript and Firestore. Feature include basic CRUD functionality, drag and drop, livesharing, authentication and offline persistence.',
+    technologyUsed: 'React, TypeScript, Firestore, Styled-Components, React Beautful DnD, HTML, CSS, JavaScript',
+    gitHubLink: 'https://github.com/carlorre/new-firebase-todo',
+    liveDemo: 'https://team-tasks.netlify.app',
+    media: './media/teamtasks_gif.gif',
+  },
+  {
     name: 'Portfolio',
     description:
       'My personal portfolio page built with React which is used as a platform to display my work. The application is hosted on Netlify and is fully responsive. It has a dark mode feature that persists using local storage.',
